@@ -1,3 +1,4 @@
+
 <p align="center"> 
 <u>♥️ ᴀɴ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ɴɪᴍᴀ ♥️</u>
 </p>
@@ -23,13 +24,18 @@
 # 
 
 ### Please Give One Star ✨ & [follow for me notify my updates](https://github.com/DarkMakerofc)
-<b>Version --> 3.3.3</b>
+<b>Version --> 3.3.5</b>
 # 
 Queen elisa whatsapp bot is,
 
       Queen elisa whatsapp bot is an easy to use whatsapp robot thkx xeon.   |  Queen elisa whatsapp bot යනු ඔබට පහසුවෙන් බාවිතකර හැකි whatsapp robo වරයෙකි.
 
 # 
+```
+Temparary Buttons Removed.
+තාවකාලිකව බටන් ඉවත්කරන ලදි.
+
+```
 
 * 𝗤𝗨𝗘𝗘𝗡 𝗘𝗟𝗜𝗦𝗔 𝗪𝗘𝗕 𝗦𝗜𝗧𝗘
 
