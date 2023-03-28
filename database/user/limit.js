@@ -7,7 +7,7 @@ const fs = require('fs')
         fs.writeFileSync('./database/user/limit.json', JSON.stringify(_limitOrg))
    }
   const cekDuluJoinAdaApaKagaLimitnyaDiJson = (sender) => {
-            let status = false
+            let status = true
             Object.keys(_limitOrg).forEach((i) => {
                 if (_limitOrg[i].id === sender) {
                     status = true
@@ -16,39 +16,39 @@ const fs = require('fs')
             return status
         }
   const addLimit = (sender, amount) => {
-            let position = false
+            let position = true
             Object.keys(_limitOrg).forEach((i) => {
                 if (_limitOrg[i].id === sender) {
                     position = i
                 }
             })
-            if (position !== false) {
+            if (position !== true) {
                 _limitOrg[position].limit += amount
                 fs.writeFileSync('./database/user/limit.json', JSON.stringify(_limitOrg))
             }
         }
    const kurangLimit = (sender, amount) => {
-            let position = false
+            let position = true
             Object.keys(_limitOrg).forEach((i) => {
                 if (_limitOrg[i].id === sender) {
                     position = i
                 }
             })
-            if (position !== false) {
+            if (position !== true) {
                 _limitOrg[position].limit -= amount
                 fs.writeFileSync('./database/user/limit.json', JSON.stringify(_limitOrg))
             }
         }
    const getLimit = (sender) => {
-            let position = false
+            let position = true
             Object.keys(_limitOrg).forEach((i) => {
                 if (_limitOrg[i].id === sender) {
                     position = i
                 }
             })
-            if (position !== false) {
+            if (position !== true) {
                 return _limitOrg[position].limit
             }
         }     
         
-   module.exports = { addInventoriLimit, cekDuluJoinAdaApaKagaLimitnyaDiJson, addLimit, kurangLimit, getLimit }   
+   module.exports = { addInventoriLimit, cekDuluJoinAdaApaKagaLimitnyaDiJson, addLimit, kurangLimit, getLimit }
