@@ -3,7 +3,7 @@
   "xnxxsh",
 ".menu",
 "#menu",
-",menu",
+"menu",
 ".pic",
 "pic",
 "!menu",
@@ -14,5 +14,5 @@
 "git",
 ".git",
 ".ai",
-"Ai" 
+"Ai", 
 ]
