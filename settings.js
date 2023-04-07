@@ -45,7 +45,7 @@ global.AUTO_FUNCTION = false
 //👇 Put Bot Offline
 global.BOT_OFFLINE = true
 //👇 Only PreFix [ true / false ]
-global.ONLY_PREFIX = false
+global.ONLY_PREFIX = true
 //👇 This uplaod youtube videos without limit ⚠️ if you use this you must have paid sever
 global.UPLOAD_MAX = true
 /*
@@ -142,7 +142,7 @@ global.pemilik = ['265997133051'] //Change  it , ඔබට කැමති න�
 global.premium = ['265997133051'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
 global.pengguna = 'Austin Max' // Your name ඔබේ නම 
 global.sessionName = 'session'
-global.prefix = ['#','!','.'] 
+global.prefix = ['.'] 
 global.sp = '👽'
 global.weem = 'AUSTIN MAX'
 
