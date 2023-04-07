@@ -1,9 +1,13 @@
 [
-  "xnxxdl",
-  "xnxxsh",
+"xnxxdl",
+"xnxxsh",
 ".menu",
+"!menu",
+"-menu",
 "#menu",
 ",menu",
 "pic",
-".pic"
+".pic",
+".alive",
+"Alive" 
 ]
