@@ -23,9 +23,9 @@ const chalk = require('chalk')
 //👇 if you need seen massage use " true "
 global.READ_MASSAGE = true
 //👇 enable desable Girls Voice Reply
-global.VOICE_REPLY = false
+global.VOICE_REPLY = true
 //👇 Do you want show time on your bio use "true" want desable use "false"
-global.AUTO_BIO = true
+global.AUTO_BIO = false
 //👇 Inbox massage block PM block
 global.INBOX_BLOCK = true
 //👇 Auto react 
@@ -47,32 +47,32 @@ global.BOT_OFFLINE = true
 //👇 Only PreFix [ true / false ]
 global.ONLY_PREFIX = false
 //👇 This uplaod youtube videos without limit ⚠️ if you use this you must have paid sever
-global.UPLOAD_MAX = true
+global.UPLOAD_MAX = false
 /*
        ✨ BOT INFO SETTINGS ✨
 */
 // You Bots Owner Number 
-global.owner = ['265997133051'] 
+global.owner = ['94779912589'] 
 //👇 Your Caption ( Image Video )
-global.cap = '*© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙴𝙻𝙸𝚂𝙰 𝙼𝙰𝚇 𝙱𝙾𝚃*'
+global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱y Mr.Hasi'
 //👇 Your Bot Name
-global.botnma =  '*ELISA MAX BOT*' 
+global.botnma =  '*Queen ELISA*' 
 //👇 Your name
-global.ownernma =  '*AUSTIN MAX*' 
+global.ownernma =  'Mr Hasi' 
 //👇 Sticker Author Name
-global.packname =  'AUSTIN MAX' 
+global.packname =  'Hasi' 
 //👇 Inbox Block Massage 
-global.INBOX_BLOCK_MSG = 'Do not text Bot your number will be blocked in 5seconds !!!'
+global.INBOX_BLOCK_MSG = 'සමාවෙන්න !!! ඔබට බොට් කෙනෙකු සමඟ මැසේජ් කළ නොහැක. බොට් විසින් ඔබව ස්වයංක්‍රීයව බ්ලොක් කරනු ඇත. කිසියම් ගැටළුවක් ඇත්නම් අයිතිකරු විමසන්න - +94779912589'
 //👇 Owner React Imoji
 global.OWNER_REACT =  '💻'
 //👇 Song Download Massage 
-global.SONG_DOWN = '```⬇️ Downloading Your Song...```' 
+global.SONG_DOWN = '```⬇️ ඔබගේ ගීතය Download වෙමින් පවතී...```' 
 //👇 Song Uplode massage 
-global.SONG_UP = '```⬆️ Uploding Your Song...```'
+global.SONG_UP = '```⬆️ Download වූ ඔබගේ ගීතය Upload වෙමින් පවතී...```'
 //👇 Menu imoji 
 global.MENU_IMOJI = '👸|ℹ️'
 //👇 Your time zone ( use correct time zone )
-global.TIME_ZONE = process.env.TIME_ZONE || 'Africa/Blantyre'
+global.TIME_ZONE = process.env.TIME_ZONE || 'Colombo/Sri Lanka'
 //👇 Removebg Api key
 global.REMOVE_BG_API = 'apikey get on remoebg.com'
 //👇 Pron Video Download 
@@ -82,9 +82,9 @@ global.LANG = 'EN'
 //Alive logo
 global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/file/b0f1e7622f1e11f1bbd6d.jpg`
 //👇 Alive message
-global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `Hello Elisa Max Bot is online`
+global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `Hello Queen Elisa is online How can i help you`
 //👇 Welcome Mesaage
-global.WELCOME = process.env.WELCOME || ``
+global.WELCOME = process.env.WELCOME || `ඔබව සාදරයෙන් පිළිගනිමු.`
 //👇 welcome image 
 global.WELCOME_IMAGE = process.env.WELCOME_IMAGE || ``
 //👇 Goodbye message 
@@ -92,7 +92,7 @@ global.GOODBYE = process.env.GOODBYE || ``
 //👇 Good bye image
 global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
 //👇 Desable PM Block numbers
-global.NO_BLOCK = ["265997133051","94719574492"]
+global.NO_BLOCK = ["94779912589"]
 //👇 Desable download words
 global.IMG_BLOCKER = ["xxx","sex","mia"]
 //👇 Open ai API
@@ -124,10 +124,10 @@ global.mess = {
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     BLOCK_CMD_MSG : '*⚠️ This Command is Block By Owner*',
     IMG_BLOCK : "This Word is Ban from image downloader",
-    BAD_DETECT : '',
-    BLOCK : '',
+    BAD_DETECT : 'කරුණාකර විනීතව හැසිරෙන්න! නැතහොත් ඔබව remove විය හැක.',
+    BLOCK : 'ඔබව අවහිර කරනු ඇත .. Good byee!!!',
     UNBLOCK : '',
-    KICK : '',
+    KICK : 'Kick.....!!!!',
     ADD : '',
     LEAVE : '',
     PROMOTE : '',
@@ -138,13 +138,13 @@ global.mess = {
 
 
 //other
-global.pemilik = ['265997133051'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
-global.premium = ['265997133051'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
-global.pengguna = 'Austin Max' // Your name ඔබේ නම 
+global.pemilik = ['94779912589'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
+global.premium = ['94779912589'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
+global.pengguna = 'Queen elisa' // Your name ඔබේ නම 
 global.sessionName = 'session'
 global.prefix = ['.'] 
 global.sp = '👽'
-global.weem = 'AUSTIN MAX'
+global.weem = 'QUEEN ELISA'
 
 global.limitawal = {
     premium: "Infinity", 
